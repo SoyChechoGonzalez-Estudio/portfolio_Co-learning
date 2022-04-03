@@ -1,0 +1,31 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  position: relative;
+}
+nav {
+  background-color: var(--main-color);
+  width: 0;
+  height: 500px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease-in, inline-size 0s 0.25s, right 0s 0.25s;
+}
+.active {
+  width: 300px;
+  transition: opacity 0.25s ease-out, inline-size;
+  opacity: 1;
+}
+.nav ol li a {
+  color: var(--text-color);
+}
+.menu-toggle i {
+  font-size: 32px;
+}

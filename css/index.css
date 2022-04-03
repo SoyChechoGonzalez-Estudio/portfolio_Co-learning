@@ -1,0 +1,12 @@
+/* Sections */
+@import './header.css';
+@import './reset.css';
+
+/* Components */
+@import './Components/wrapper.css';
+
+/* Variables */
+:root {
+  /* Colors */
+  --main-color: #ff6464;
+}
